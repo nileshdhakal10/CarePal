@@ -24,15 +24,16 @@ public class DeleteMed extends AppCompatActivity {
         Context context = getApplicationContext();
         Button deleteBtns = (Button) findViewById(R.id.deleteBtns);
         EditText mednameToDelete = (EditText) findViewById(R.id.mednameToDelete);
-        String toDelete = mednameToDelete.getText().toString();
-        DatabaseReference mednameReff = FirebaseDatabase.getInstance().getReference("Medlist");
+
 
         deleteBtns.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v)
             {
-                mednameReff.child(toDelete).removeValue().addOnCompleteListener(new OnCompleteListener<Void>() {
+                String toDelete = mednameToDelete.getText().toString();
+                DatabaseReference mednameReff = (FirebaseDatabase.getInstance().getReference().child("MedList")).child(toDelete);
+                mednameReff.removeValue().addOnCompleteListener(new OnCompleteListener<Void>() {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {
                         Toast.makeText(context, "Medication delete!", Toast.LENGTH_LONG).show();
