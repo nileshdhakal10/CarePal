@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "806163955515",
+    "firebase_url": "https://monitoring-9344c.firebaseio.com",
+    "project_id": "monitoring-9344c",
+    "storage_bucket": "monitoring-9344c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806163955515:android:b2cb40fb1da177dbba011e",
+        "android_client_info": {
+          "package_name": "com.example.monitoring"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806163955515-9uo0kqf312ec4vbmhdcdt7rrplvt7t52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoR1yf3kmimiaOuPR7mhXl1rphtOK3BdU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806163955515-9uo0kqf312ec4vbmhdcdt7rrplvt7t52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

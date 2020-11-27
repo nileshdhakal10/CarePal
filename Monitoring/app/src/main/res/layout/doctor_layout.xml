@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/colorful_background">
+
+
+    <ImageView
+        android:layout_width="37dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginLeft="147dp"
+        android:layout_marginTop="117dp"
+        android:src="@drawable/ic_call" />
+
+    <Button
+        android:id="@+id/button_callDoctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="112dp"
+        android:backgroundTint="#0A5E0D"
+        android:text="Make a Call"
+        tools:ignore="UnusedAttribute" />
+
+    <EditText
+        android:id="@+id/id_editTextDoctor"
+        android:layout_width="376dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="254dp"
+        android:background="@drawable/box_border"
+        android:drawablePadding="12dp"
+        android:hint="Enter message"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button_sendTextDoctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="350dp"
+        android:backgroundTint="#0A5E0D"
+        android:text="Send text"
+        tools:ignore="UnusedAttribute" />
+
+
+</RelativeLayout>
