@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Vital Signs</string>
+    <string name="BloodPressureTv">Blood Pressure</string>
+    <string name="BloodSugarTv">Blood Sugar</string>
+    <string name="CholesterolHDLTv">Cholesterol HDL</string>
+    <string name="TriglyceridesTv">Triglycerides</string>
+    <string name="MyConditionsBtn">My Conditions</string>
+    <string name="MaintainTipsBtn">Maintain Tips</string>
+    <string name="MainMenuBtn">Main Menu</string>
+    <string name="CholesterolLDLTv">Cholesterol LDL</string>
+    <string name="TypeNumHint">Type a number</string>
+    <string name="SaveBtn">Save</string>
+    <string name="okayBtn">Okay</string>
+    <string name="infoView">Information</string>
+
+</resources>
