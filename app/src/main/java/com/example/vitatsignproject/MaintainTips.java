@@ -12,11 +12,11 @@ public class MaintainTips extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maintain_tips);
 
-        String blPressureMsg = "BLOOD PRESSURE:\n\treduce" ;
-        String blSugarMsg = "BLOOD SUGAR:\n\treduce";
-        String ChoHDLMsg = "CHOLESTEROL HDL:\n\treduce";
-        String ChoLDLMsg = "CHOLESTEROL LDL:\n\treduce";
-        String TriMsg = "TRIGLYCERIDES:\n\treduce";
+        String blPressureMsg = "BLOOD PRESSURE:\n\t- Lose extra pounds\n\t- Reduce sodium in your diet\n\t- Quit smoking and cut back on caffeine" ;
+        String blSugarMsg = "BLOOD SUGAR:\n\t- Control your Carb intake\n\t- Drink water and stay hydrated\n\t- Increase Fiber intake";
+        String ChoHDLMsg = "CHOLESTEROL HDL:\n\t- Lose extra weight\n\t- Choose better fat in fish and nuts";
+        String ChoLDLMsg = "CHOLESTEROL LDL:\n\t - Add to your diet: oats, whole grains, beans, nuts\n\t\tfruits, fiber rich food";
+        String TriMsg = "TRIGLYCERIDES:\n\t - Limit sugar intake\n\t- Avoid trans/saturated fat\n\t- Reduce alcohol intake";
 
         TextView blPressureTv = findViewById(R.id.blPressMt);
         blPressureTv.setText(blPressureMsg);
